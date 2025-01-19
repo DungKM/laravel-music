@@ -23,8 +23,9 @@
     <p>Some contents...</p>
     <p>Some contents...</p>
   </a-drawer>
-  <a-drawer v-model:open="open_user" class="custom-class" root-class-name="root-class-name" :root-style="{ color: 'blue' }"
-    style="color: red" title="Admin" placement="right" @after-open-change="afterOpenChange">
+  <a-drawer v-model:open="open_user" class="custom-class" root-class-name="root-class-name"
+    :root-style="{ color: 'blue' }" style="color: red" title="Admin" placement="right"
+    @after-open-change="afterOpenChange">
     <p>Some contents...</p>
     <p>Some contents...</p>
     <p>Some contents...</p>
